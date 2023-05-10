@@ -1,7 +1,7 @@
 import React from 'react';
 import { PlayIcon } from '@heroicons/react/24/solid';
 import { useRouter } from 'next/router';
-
+import { BsChatDots } from 'react-icons/bs';
 interface PlayButtonProps {
   movieId: string;
 }
@@ -27,8 +27,8 @@ const PlayButton: React.FC<PlayButtonProps> = ({ movieId }) => {
         transition
         "
       >
-        <PlayIcon className="w-4 md:w-7 text-black mr-1" />
-        Play
+        <BsChatDots className="w-4 md:w-7 text-black mr-1" />
+        Chat
     </button>
   );
 }

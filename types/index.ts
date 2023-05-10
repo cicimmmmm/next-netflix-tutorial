@@ -4,6 +4,5 @@ export interface MovieInterface {
   description: string;
   thumbnailUrl: string;
   videoUrl: string;
-  duration: string;
   genre: string;
 }
