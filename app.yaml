@@ -1,0 +1,4 @@
+runtime: nodejs20 # or another supported version
+
+instance_class: F1
+
